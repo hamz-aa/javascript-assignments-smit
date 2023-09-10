@@ -78,3 +78,36 @@
 // document.write(`${selectedCities}<br>`)
 
 // Q:12
+// var arr = ['This', 'is', 'my', 'cat'];
+// document.write(`Array:<br>`)
+// document.write(`${arr}<br><br>`)
+// document.write(`String:<br>`)
+// document.write(`${arr.join(' ')}<br>`)
+
+// Q:13
+// var devices = ['keyboard', 'mouse', 'printer', 'monitor']
+// document.write('Devices:<br>')
+// document.write(`${devices}<br><br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.shift()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.shift()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.shift()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.shift()}<br>`)
+
+// Q:14
+// var devices = ['keyboard', 'mouse', 'printer', 'monitor']
+// document.write('Devices:<br>')
+// document.write(`${devices}<br><br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.pop()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.pop()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.pop()}<br>`)
+// document.write(`Out:<br>`)
+// document.write(`${devices.pop()}<br>`)
+
+// Q:15
