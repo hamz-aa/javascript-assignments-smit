@@ -77,4 +77,14 @@
 // document.write('Selected Cities List<br>')
 // document.write(`${selectedCities}<br>`)
 
-// Q:12
+// Q:15
+// var phoneManufacturers = ['apple', 'samsung', 'motorola', 'nokia', 'sony', 'haier']
+// document.write('<label for=\'phones\'>Choose a Phone: </label>')
+// document.write('<select name="phones" id="phones">')
+// document.write('<option value="apple">Apple</option>')
+// document.write('<option value="samsung">Samsung</option>')
+// document.write('<option value="motorola">Motorola</option>')
+// document.write('<option value="nokia">Nokia</option>')
+// document.write('<option value="sony">Sony</option>')
+// document.write('<option value="haier">Haier</option>')
+// document.write('</select>')
