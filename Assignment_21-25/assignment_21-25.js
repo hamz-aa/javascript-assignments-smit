@@ -94,3 +94,20 @@
 //     }
 //     if(flag) break;
 // }
+
+// Q:14
+// const items = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let userInput = prompt('Welcome to ABC Bakery. What do you want to order sir/ma\'am?')
+
+// let flag = false
+// for(let item in items){
+//     if(items[item] === userInput){
+//         document.write(`${items[item]} is available at index ${item} in our bakery`)
+//         flag = true
+//         break
+//     }
+// }
+
+// if(!flag){
+//     document.write(`We are sorry. ${items[item]} is not available in our bakery`)
+// }  
