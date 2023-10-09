@@ -111,3 +111,6 @@
 // if(!flag){
 //     document.write(`We are sorry. ${items[item]} is not available in our bakery`)
 // }  
+
+// Q:15
+let password = prompt('Enter your password : ')
