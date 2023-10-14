@@ -113,4 +113,24 @@
 // }  
 
 // Q:15
-let password = prompt('Enter your password : ')
+// let password = prompt('Enter your password : ')
+
+// let firstChar = password.charAt(0).charCodeAt();
+// let flag = true;
+
+// if (!(firstChar >= 48 && firstChar <= 57) && password.length > 5){
+//     for(let i = 0; i < password.length; i++){
+//         code = password.charAt(i).charCodeAt();
+//         if (!(code >= 48 && code <= 57) && !(code >= 65 && code <= 90) && !(code >= 97 && code <= 122)){
+//             flag = false
+//         }
+//     }
+// }
+// else {
+//     flag = false;
+//     if (password.length < 6) alert('Length cannot be less than 6')
+//     if (firstChar >= 48 && firstChar <= 57) alert('First letter cannot be a number')
+// }
+
+// if(flag) alert('Valid Password')
+// else alert('Invalid Password')
