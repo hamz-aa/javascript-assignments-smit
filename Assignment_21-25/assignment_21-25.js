@@ -134,3 +134,28 @@
 
 // if(flag) alert('Valid Password')
 // else alert('Invalid Password')
+
+// Q:16
+// let university = 'University of Karachi';
+
+// for(let character of university.split('')){
+//     document.write(`${character} <br>`);
+// }
+
+// Q:17
+// let userInput = prompt('Enter your input : ');
+// document.write(`User input: ${userInput}<br>`)
+// document.write(`Last character of input: ${userInput.charAt(userInput.length - 1)}`)
+
+// Q:18
+// let text = 'The quick brown fox jumps over the lazy dog';
+// let count = 0;
+
+// for(let i = 0; i <= text.length; i++){
+//     if((text.charAt(i) == 't' || text.charAt(i) == 'T') && (text.charAt(i+1) == 'h' || text.charAt(i+1) == 'H') && (text.charAt(i+2) == 'e' || text.charAt(i+2) == 'E')) {
+//         count++;
+//     }
+// }
+
+// document.write(`Text: ${text}<br>`)
+// document.write(`There are ${count} occurence(s) of the word 'the'`)
