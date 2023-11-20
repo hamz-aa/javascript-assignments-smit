@@ -64,3 +64,38 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 // document.write(`${diffInMinutes} minutes have been passed since beginning of 2015<br>`);
 
 // Q:11
+// document.write(`Current Date : ${date}<br>`);
+
+// date.setTime(date.getTime() - (60 * 60 * 1000));
+// document.write(`1 hour ago, it was ${date}<br>`);
+
+// Q:12
+// document.write(`Current Date : ${date}<br>`);
+
+// date.setFullYear(date.getFullYear() - 100, date.getMonth(), date.getDate());
+// document.write(`100 years back, it was ${date}<br>`);
+
+// Q:13
+// userAge = parseInt(prompt('Enter your Age : '));
+
+// document.write(`Your Age is : ${userAge}<br>`);
+// document.write(`Your Birth Year is : ${date.getFullYear() - userAge}<br>`);
+
+// Q:14
+// let customerName = prompt('Enter your name : ');
+// let numOfUnits = parseInt(prompt('Enter number of units : '));
+// let chargesPerUnit = parseInt(prompt('Enter charges per unit : '));
+// let currMonth = months[date.getMonth()];
+// let latePaymentSurcharge = parseInt(prompt('Enter late payment surcharge : '));
+
+// let netAmountPayable = numOfUnits * chargesPerUnit;
+// let grossAmountPayable = netAmountPayable + latePaymentSurcharge;
+
+// document.write(`<h1>K-Electric Bill</h1><br><br>`);
+// document.write(`Customer Name : ${customerName}<br>`);
+// document.write(`Current Month : ${currMonth}<br>`);
+// document.write(`Number Of Units : ${numOfUnits}<br>`);
+// document.write(`Chargers Per Unit : ${chargesPerUnit}<br><br>`);
+// document.write(`Net Amount Payable (within Due Date) : ${netAmountPayable}<br>`);
+// document.write(`Late Payment Surcharge : ${latePaymentSurcharge}<br>`);
+// document.write(`Gross Amount Payable (after Due Date) : ${grossAmountPayable}<br>`);
