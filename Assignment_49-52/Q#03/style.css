@@ -1,0 +1,40 @@
+form,
+table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 35%;
+  margin: 80px auto;
+}
+
+input {
+  width: 90%;
+}
+
+label {
+  margin-top: 5px;
+}
+
+.submit {
+  margin: 10px auto;
+  width: 80px;
+  cursor: pointer;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 0.2em 0.4em;
+  cursor: pointer;
+}
+
+.view {
+  margin: 50px 0 0 50px;
+}
+
+.view-form {
+  display: none;
+}
+
+.data {
+  display: none;
+}
